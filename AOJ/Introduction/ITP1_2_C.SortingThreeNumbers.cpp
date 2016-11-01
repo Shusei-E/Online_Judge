@@ -24,7 +24,7 @@ int main(){
 	return 0;
 }
 
-/* Found Code */
+/* Found Code 1*/
 #include <iostream>
 using namespace std;
  
@@ -40,4 +40,22 @@ int main() {
     cout<<a<<" "<<b<<" "<<c<<endl;     
     return 0;        
           
+}
+
+/* Found Code 2*/
+#include <iostream>
+#include <algorithm>
+ 
+using namespace std;
+ 
+int main(){
+    int a[3];
+ 
+    cin >> a[0] >> a[1] >> a[2];
+     
+    sort(a, a + 3); // 配列のsort cf. https://codezine.jp/article/detail/6020
+    cout << a[0] << " " << a[1] << " "  << a[2] << endl;
+ 
+ 
+    return 0;
 }
