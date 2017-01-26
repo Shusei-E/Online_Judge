@@ -14,6 +14,7 @@
 * switch文
 	* ITP1_6_B.FindingMissingCards
 * Dynamic allocation of multidimensional array
+	* ITP1_6_D.MatrixVectorMultiplication
 
 # 上手な別解あり
 * ITP1_6_B.FindingMissingCards
