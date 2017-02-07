@@ -17,6 +17,9 @@
 	* ITP1_6_D.MatrixVectorMultiplication
 * 文字列の扱い
 	* ITP1_8_A.TogglingCases
+	* `int num = ch - 'a';  // 文字 ch の番号`
+	* 行の取得: `getline(cin, s1);`
+	* EOFまで読み込む --> ITP1_8_C.CountingCharacters (ちなみにEOFはCtrl-D)
 
 # 上手な別解あり
 * ITP1_6_B.FindingMissingCards
