@@ -22,6 +22,7 @@
 	* EOFまで読み込む --> ITP1_8_C.CountingCharacters (ちなみにEOFはCtrl-D)
 	* 単語ごとの処理 --> `ITP1_9_A.FindingAWord`の`istringstream`
 	* 大文字/小文字 --> `#include <algorithm>`を読み込んでおいて`std::transform(str.begin(), str.end(), str.begin(), ::tolower);` (`ITP1_9_A.FindingAWord`)
+	* Slice --> `ITP1_9_B.Shuffle`
 
 # 上手な別解あり
 * ITP1_6_B.FindingMissingCards
