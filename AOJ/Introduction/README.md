@@ -23,6 +23,7 @@
 	* 単語ごとの処理 --> `ITP1_9_A.FindingAWord`の`istringstream`
 	* 大文字/小文字 --> `#include <algorithm>`を読み込んでおいて`std::transform(str.begin(), str.end(), str.begin(), ::tolower);` (`ITP1_9_A.FindingAWord`)
 	* Slice --> `ITP1_9_B.Shuffle` (恐らく文字と文字の間でindexされていてPythonと同じでは)
+	* string型だったら、`<, >, ==`で辞書順の大小比較ができる (`ITP1_9_C`)。
 
 # 上手な別解あり
 * ITP1_6_B.FindingMissingCards
