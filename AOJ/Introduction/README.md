@@ -25,6 +25,7 @@
 	* Slice --> `ITP1_9_B.Shuffle` (恐らく文字と文字の間でindexされていてPythonと同じでは)
 	* string型だったら、`<, >, ==`で辞書順の大小比較ができる (`ITP1_9_C`)。
 	* 文字列の任意の箇所でreplace, reverse, print: `ITP1_9_D: Transformation`
+* 数字の出力: 小数点の取り扱い --> `ITP1_10_A`
 
 # 上手な別解あり
 * ITP1_6_B.FindingMissingCards
