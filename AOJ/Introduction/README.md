@@ -26,6 +26,10 @@
 	* string型だったら、`<, >, ==`で辞書順の大小比較ができる (`ITP1_9_C`)。
 	* 文字列の任意の箇所でreplace, reverse, print: `ITP1_9_D: Transformation`
 * 数字の出力: 小数点の取り扱い --> `ITP1_10_A`
+* 変数の宣言
+	* 複数の変数の値を0に: `int e1,e2,e3 = {};`
+* オブジェクトの値の入れ替え: [std:swap](http://kaworu.jpn.org/cpp/std::swap)
+	* `int a = 0, b = 100; std::swap(a,b);`
 
 # 上手な別解あり
 * ITP1_6_B.FindingMissingCards
