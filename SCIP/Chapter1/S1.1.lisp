@@ -24,3 +24,15 @@ circumference
 (* (+ 2 (* 4 6))
    (+ 3 5 7)
    )
+
+; 1.1.4
+(defun square(x) (* x x))
+
+(square 21)
+(square (+ 2 5))
+(square (square 3))
+
+(defun sum-of-squares (x y) 
+    (+ (square x) (square y))
+  )
+(sum-of-squares 3 4)
