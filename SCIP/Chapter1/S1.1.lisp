@@ -34,7 +34,7 @@ circumference
 
 (defun sum-of-squares (x y) 
     (+ (square x) (square y))
-  )
+)
 (sum-of-squares 3 4)
 
 ; 1.1.5
@@ -43,3 +43,13 @@ circumference
   )
 
 (f 5)
+
+; 1.1.6
+(defun data-type (x)
+  (cond
+    ((integerp x) (print "整数です"))
+    ((floatp x)   (print "浮動小数点数です"))
+    ((listp x)    (print "リストです"))
+    ((symbolp x)  (print "シンボルです"))
+    ((stringp x)  (print "文字列です"))
+    (t (print "その他のデータです"))))
