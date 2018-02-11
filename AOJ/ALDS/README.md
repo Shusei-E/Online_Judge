@@ -41,3 +41,30 @@ int main(){
 
 }
 ```
+
+## scanf and cin
+```cpp
+int n, q;
+scanf("%d %d", &n, &q);
+
+string temps;
+int tempv;
+vector< map<string,int> > processes;
+for(int i=0; i<n; ++i){
+	cin >> temps >> tempv;
+	map<string, int> tempm;
+	tempm[temps] = tempv;
+	processes.push_back(tempm);	
+}
+```
+
+## map and reference
+```cpp
+int & time = mSettings["WorldTime"];
+```
+
+## tuple
+```cpp
+tuple<string, int> tempt = make_tuple(temps, tempv);
+int &temp = get<0>(tempt)
+```
