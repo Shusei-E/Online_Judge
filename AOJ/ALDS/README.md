@@ -68,3 +68,8 @@ int & time = mSettings["WorldTime"];
 tuple<string, int> tempt = make_tuple(temps, tempv);
 int &temp = get<0>(tempt)
 ```
+
+## free memory
+```cpp
+free(obj);
+```
