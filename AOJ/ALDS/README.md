@@ -73,3 +73,6 @@ int &temp = get<0>(tempt)
 ```cpp
 free(obj);
 ```
+
+## Length of the array
+関数の引数に配列のポインタを渡した時、呼び出された関数では、配列の正しい要素数を知るすべはありません。
