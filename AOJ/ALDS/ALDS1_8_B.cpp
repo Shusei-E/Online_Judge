@@ -67,10 +67,19 @@ void find(NODE *node, int &key){
 	}else if(node->left == nullptr && node->right==nullptr){
 		cout << "no" << endl;
 	}else if(node->key < key){
+		if(node->right==nullptr){
+			cout << "no" << endl;
+			return;
+		}
 		find(node->right, key);		
 	}else if(key < node->key){
+		if(node->left==nullptr){
+			cout << "no" << endl;
+			return;
+		}
 		find(node->left, key);
 	}
+	return;
 }
 
 int main(){
